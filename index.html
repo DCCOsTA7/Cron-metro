@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Timer - Cronómetro</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<main class="container">
+		<fieldset><h2>Cronómetro</h2></fieldset>
+		<section class="row">
+			<br>
+			<div class="input-area">
+				<label for="input-horas">Horas</label>
+				<input type="text" tabindex="1" id="input-horas" min="1" class="form-control" value="00" readonly="readonly" />
+				<span class="separador">:</span>
+			</div>
+			<br>
+			<div class="input-area">
+				<label for="input-minutos">Minutos</label>
+				<input type="text" tabindex="2" id="input-minutos" class="form-control" value="00" readonly="readonly" />
+				<span class="separador">:</span>
+			</div>
+			<br>
+			<div class="input-area">
+				<label for="input-segundos">Segundos</label>
+				<input type="text" tabindex="3" id="input-segundos" min="1" class="form-control" value="00" readonly="readonly" />
+			</div>
+			<br>
+			<div class="btn-area">
+				<button type="button" id="btn-start" tabindex="4" class="btn btn-default">Iniciar</button>
+				<button type="reset" id="btn-reset" tabindex="5" class="btn btn-default">Repor</button>
+				<button type="button" id="btn-mark" tabindex="6" class="btn btn-default">Marcar</button>
+			</div>
+			<div id="mark-area"><br></div>
+		</section>
+	</main>
+
+	<script type="text/javascript" src="js/timer.js"></script>
+</body>
+</html>

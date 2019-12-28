@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{padding:0;margin:0;overflow-y:hidden}
+main.container{padding:30px 0 80px 0;margin:40% auto auto auto;background-color:#fff;text-align:center;}
+main.container h2{color:#f96726}
+div.input-area{display:inline-table;}
+div.input-area input{border:1.2px solid #ccc;padding:10px;width:50px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-weight:500;text-align:center;font-size:1em}
+div.input-area label{display:block;font-family:'consolas',"verdana";font-weight:bolder;text-align:left;color:#f96726;padding-bottom:1.5px}
+.btn-area{margin-top:10px}
+.btn{padding:5px;border:1px solid #ccc;font-weight:bold;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.btn:focus,.btn:hover{opacity:.8;cursor:pointer;color:#f5f5f5}
+.btn-default{background-color:#f96726;color:#f5f5f5}
+.separador{margin-left:6px;font-weight:bolder}
+#mark-area{margin:auto;width:70%;height:120px;overflow-y:scroll;margin-top:30px}
+.mark{display:block;background-color:#333;color:#fff;font-size:1.5em;margin-bottom:10px;}
+.mark:last-child{margin-bottom:0}@media screen and (min-width:568px){main.container{margin:10% auto auto auto}}@media screen and (min-height:640px){main.container{margin:45% auto auto auto}}@media screen and (min-width:640px){main.container{margin:8% auto auto auto}}@media screen and (min-height:695px){main.container{margin:35% auto auto auto}}@media screen and (min-width:768px){main.container{margin:20% auto auto auto}}@media screen and (min-width:960px){main.container{margin:20% auto auto auto}}@media screen and (min-width:1278px){main.container{margin:15% auto auto auto}}@media screen and (min-width:1280px){main.container{margin:5% auto auto auto}}@media screen and (min-height:918px){main.container{margin:20% auto auto auto}}
